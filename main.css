@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    /* justify-content: center; */
+}
+:root{
+    --blue:rgb(64,78,237);
+}
+
+.container{
+    position: relative;
+    background-color: var(--blue);
+    width: 100vw;
+    height: 90vh;
+    margin-bottom: 10vh;
+}
+.nav{
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: baseline; */
+    align-items: baseline;
+    /* align-items: center; */
+height: 80px;
+width: 90%;
+background-color: var(--blue);
+}
+.im{
+    display: flex;
+    color: white;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* font-size: 30px; */
+}
+.im svg{
+    
+}
+.im h3{
+    font-size: x-large;
+    /* letter-spacing:.1em; */
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.option ul{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 2.3rem ;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul li,li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.login button{
+    /* height: 40px;
+    width: 80px; */
+    padding: 12px 15px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.content-section{
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.content{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+.heading h1{
+    color: white;
+    font-size: 56px;
+    line-height: 53px;
+    font-style: normal;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.para p{
+    color: white;
+    font-size: 18px;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 33px;
+}
+.download-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.download-icons button{
+padding: 20px 50px;
+border-radius: 205px;
+border: none;
+font-size: 16px;
+line-height: 18px;
+font-weight: 400;
+
+}
+
+.Download2 button{
+    background-color: rgb(35,39,42);
+    color: white;
+}
+
+.mountain{
+   
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* z-index: -1; */
+}
+
+.mountain img{
+    position: absolute;
+    width: 100%;
+    height: 87.3%;
+    overflow: hidden;
+    object-fit: cover;
+    /* margin-bottom: 15%; */
+    /* bottom: 15rem; */
+}
+
+.shoe{
+    padding-top: 10.2rem;
+    position: absolute;
+    z-index: 1;
+
+    left: -30%;  
+    width: 100%;
+    bottom: 0;
+}
+
+.first{
+    position: absolute;
+    bottom: 0;
+}
+
+.second{
+    position: absolute;
+    left: 110%;
+    bottom: 0%;
+}
+   .section{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 10vh;
+    justify-self: center;
+    align-items: center;
+    /* gap: 20%; */
+    padding-right: 5%;
+   }
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 0 10rem;
+    margin-left: 5rem;
+    /* justify-content: space-evenly; */
+    /* align-content: space-aroun; */
+}
+   .rightbox h2{
+font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+margin-bottom: 2rem;
+color: #23272a;
+   }
+
+   .rightbox p{
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 38px;
+color: black;
+text-align: start;
+padding-right: 4rem;
+   }
+   .leftbox img{
+    z-index: 10;
+    /* transform: scale(50); */
+   }
+
+
+   .section2{
+    flex-direction: row-reverse;
+   }
+   .section4{
+    height: 120vh;
+    width: 100vw;
+    flex-direction: column;
+   }
+.up{
+    width: 75%;
+}
+   .up p,.up b{
+    text-align: center;
+    margin-bottom: 30px;   
+}
+
+   .up b{
+    
+    font-size: 50px;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:900;
+   }
+
+   .down{
+    padding-left: 4rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .down img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+   }
+
+   .foot{
+    margin-top: 17rem;
+    width:30rem;
+    height: 5rem;
+    position: relative;
+    /* background-color: aqua; */
+    /* text-align: center; */
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 900;   
+}
+
+   .foot img, .foot h3{
+    position: absolute;
+   }
+   .Download1-foot button{
+    background-color: var(--blue);
+    color: white;
+   }
+
+   footer{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(35,39,42);
+    margin-top: 9rem;
+   }
+
+   .foot-wrap{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 7%;
+    top: 10%;
+    width: 85%;
+    height: 80%;
+    /* background-color: aqua; */
+   }
+.up-foot{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.foot-left select{
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 1rem;
+}
+   .foot-left{
+    padding: 3rem;
+    /* background-color: blue; */
+    height: 100%;
+    width: 20%;
+    display: grid;
+    
+    /* gap: 2rem; */
+   }
+
+   .icons{
+    
+    width: 150%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+   }
+
+   .icons i{
+    color: white;
+   }
+
+   .foot-right{
+    position: relative;
+    left: 10%;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.foot-content ul li{
+   font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-top:0.6rem;
+    margin-bottom: 0.6rem;
+    justify-content: space-around;
+    
+}
+
+.down-foot{
+    position: relative;
+    left: 4%;
+    width: 90%;
+    border-top: 2px solid var(--blue); 
+}
+.temp{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign button{
+    font-weight: 600;
+    /* font-size: 15px; */
+    color: white;
+    background-color: var(--blue);
+}
+
